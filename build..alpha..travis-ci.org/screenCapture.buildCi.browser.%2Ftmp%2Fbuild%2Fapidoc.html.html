@@ -47,7 +47,7 @@
 }
 </style>
 <h1>api documentation for
-    <a href="https://github.com/hoodiehq/hoodie-cli">hoodie-cli (v0.6.3)</a>
+    <a>hoodie-cli (v0.6.3)</a>
 </h1>
 <h4>Hoodie command-line interface.</h4>
 <div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
@@ -56,9 +56,18 @@
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.Gruntfile">
-            function <span class="apidocSignatureSpan">hoodie-cli.</span>Gruntfile
-            <span class="apidocSignatureSpan">(grunt)</span>
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.cli">
+            function <span class="apidocSignatureSpan">hoodie-cli.</span>cli
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.command">
+            function <span class="apidocSignatureSpan">hoodie-cli.</span>command
+            <span class="apidocSignatureSpan">(hoodie)</span>
             </a>
 
         </li>
@@ -74,19 +83,340 @@
 
         <li>
 
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hoodie-cli.</span>cli.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hoodie-cli.</span>command.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hoodie-cli.</span>console</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hoodie-cli.</span>dir</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hoodie-cli.</span>git</span>
+
+        </li>
+
+        <li>
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hoodie-cli.</span>main</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hoodie-cli.</span>packages</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hoodie-cli.</span>pid</span>
 
         </li>
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.hoodie-cli.Gruntfile">module hoodie-cli.Gruntfile</a><ol>
+    <li class="apidocModuleLi"><a href="#apidoc.module.hoodie-cli.cli">module hoodie-cli.cli</a><ol>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.Gruntfile.Gruntfile">
-            function <span class="apidocSignatureSpan">hoodie-cli.</span>Gruntfile
-            <span class="apidocSignatureSpan">(grunt)</span>
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.cli.cli">
+            function <span class="apidocSignatureSpan">hoodie-cli.</span>cli
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.hoodie-cli.cli.prototype">module hoodie-cli.cli.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.cli.prototype.argv">
+            function <span class="apidocSignatureSpan">hoodie-cli.cli.prototype.</span>argv
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.cli.prototype.help">
+            function <span class="apidocSignatureSpan">hoodie-cli.cli.prototype.</span>help
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.cli.prototype.install">
+            function <span class="apidocSignatureSpan">hoodie-cli.cli.prototype.</span>install
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.cli.prototype.logo">
+            function <span class="apidocSignatureSpan">hoodie-cli.cli.prototype.</span>logo
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.cli.prototype.new">
+            function <span class="apidocSignatureSpan">hoodie-cli.cli.prototype.</span>new
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.cli.prototype.reset">
+            function <span class="apidocSignatureSpan">hoodie-cli.cli.prototype.</span>reset
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.cli.prototype.start">
+            function <span class="apidocSignatureSpan">hoodie-cli.cli.prototype.</span>start
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.cli.prototype.uninstall">
+            function <span class="apidocSignatureSpan">hoodie-cli.cli.prototype.</span>uninstall
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.cli.prototype.unknown">
+            function <span class="apidocSignatureSpan">hoodie-cli.cli.prototype.</span>unknown
+            <span class="apidocSignatureSpan">(argv, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.cli.prototype.version">
+            function <span class="apidocSignatureSpan">hoodie-cli.cli.prototype.</span>version
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.hoodie-cli.command">module hoodie-cli.command</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.command.command">
+            function <span class="apidocSignatureSpan">hoodie-cli.</span>command
+            <span class="apidocSignatureSpan">(hoodie)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.hoodie-cli.command.prototype">module hoodie-cli.command.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.command.prototype.copyToCwd">
+            function <span class="apidocSignatureSpan">hoodie-cli.command.prototype.</span>copyToCwd
+            <span class="apidocSignatureSpan">(options, ctx, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.command.prototype.mkdir">
+            function <span class="apidocSignatureSpan">hoodie-cli.command.prototype.</span>mkdir
+            <span class="apidocSignatureSpan">(options, ctx, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.command.prototype.openBrowser">
+            function <span class="apidocSignatureSpan">hoodie-cli.command.prototype.</span>openBrowser
+            <span class="apidocSignatureSpan">(www, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hoodie-cli.command.prototype.</span>insight</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hoodie-cli.command.prototype.</span>pid</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.hoodie-cli.console">module hoodie-cli.console</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.console.err">
+            function <span class="apidocSignatureSpan">hoodie-cli.console.</span>err
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.console.info">
+            function <span class="apidocSignatureSpan">hoodie-cli.console.</span>info
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.console.prompt">
+            function <span class="apidocSignatureSpan">hoodie-cli.console.</span>prompt
+            <span class="apidocSignatureSpan">(options, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.console.raw">
+            function <span class="apidocSignatureSpan">hoodie-cli.console.</span>raw
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.console.success">
+            function <span class="apidocSignatureSpan">hoodie-cli.console.</span>success
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.console.warn">
+            function <span class="apidocSignatureSpan">hoodie-cli.console.</span>warn
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.hoodie-cli.dir">module hoodie-cli.dir</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.dir.appDir">
+            function <span class="apidocSignatureSpan">hoodie-cli.dir.</span>appDir
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.dir.buildGitURI">
+            function <span class="apidocSignatureSpan">hoodie-cli.dir.</span>buildGitURI
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.dir.getBranchFromTemplate">
+            function <span class="apidocSignatureSpan">hoodie-cli.dir.</span>getBranchFromTemplate
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.dir.getCacheDir">
+            function <span class="apidocSignatureSpan">hoodie-cli.dir.</span>getCacheDir
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.dir.getEntityFromTemplate">
+            function <span class="apidocSignatureSpan">hoodie-cli.dir.</span>getEntityFromTemplate
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.dir.getRepoFromTemplate">
+            function <span class="apidocSignatureSpan">hoodie-cli.dir.</span>getRepoFromTemplate
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.hoodie-cli.git">module hoodie-cli.git</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.git.bin">
+            function <span class="apidocSignatureSpan">hoodie-cli.git.</span>bin
+            <span class="apidocSignatureSpan">()</span>
             </a>
 
         </li>
@@ -185,6 +515,86 @@
 
     </ol></li>
 
+    <li class="apidocModuleLi"><a href="#apidoc.module.hoodie-cli.packages">module hoodie-cli.packages</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.packages._modifyPlugins">
+            function <span class="apidocSignatureSpan">hoodie-cli.packages.</span>_modifyPlugins
+            <span class="apidocSignatureSpan">(p, transform, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.packages.extendPlugins">
+            function <span class="apidocSignatureSpan">hoodie-cli.packages.</span>extendPlugins
+            <span class="apidocSignatureSpan">(p, plugins, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.packages.readPackageJSON">
+            function <span class="apidocSignatureSpan">hoodie-cli.packages.</span>readPackageJSON
+            <span class="apidocSignatureSpan">(p, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.packages.removePlugins">
+            function <span class="apidocSignatureSpan">hoodie-cli.packages.</span>removePlugins
+            <span class="apidocSignatureSpan">(p, plugins, callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.packages.writePackageJSON">
+            function <span class="apidocSignatureSpan">hoodie-cli.packages.</span>writePackageJSON
+            <span class="apidocSignatureSpan">(p, pkg, callback)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.hoodie-cli.pid">module hoodie-cli.pid</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.pid.create">
+            function <span class="apidocSignatureSpan">hoodie-cli.pid.</span>create
+            <span class="apidocSignatureSpan">(path, force)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.pid.exists">
+            function <span class="apidocSignatureSpan">hoodie-cli.pid.</span>exists
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hoodie-cli.pid.remove">
+            function <span class="apidocSignatureSpan">hoodie-cli.pid.</span>remove
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
 </ol></div>
 
 <div class="apidocSectionDiv">
@@ -192,52 +602,36 @@
 
 
     <h2>
-        <a href="#apidoc.element.hoodie-cli.Gruntfile" id="apidoc.element.hoodie-cli.Gruntfile">
-        function <span class="apidocSignatureSpan">hoodie-cli.</span>Gruntfile
-        <span class="apidocSignatureSpan">(grunt)</span>
+        <a href="#apidoc.element.hoodie-cli.cli" id="apidoc.element.hoodie-cli.cli">
+        function <span class="apidocSignatureSpan">hoodie-cli.</span>cli
+        <span class="apidocSignatureSpan">()</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">Gruntfile = function (grunt) {
+    <li>description and source-code<pre class="apidocCodePre">function CLI() {
+  this.cli = this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
 
-  'use strict';
 
-  require('load-grunt-tasks')(grunt);
 
-  // Project configuration.
-  grunt.initConfig({
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.command" id="apidoc.element.hoodie-cli.command">
+        function <span class="apidocSignatureSpan">hoodie-cli.</span>command
+        <span class="apidocSignatureSpan">(hoodie)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Command(hoodie) {
 
-    jshint: {
-      files: [
-        'Gruntfile.js',
-        'lib/**/*.js',
-        'bin/*.js'
-      ],
-      options: {
-        jshintrc: '.jshintrc'
-      }
-    },
+  var self = this;
 
-    simplemocha: {
-      options: {
-        reporter: 'spec',
-        node_env: 'testing',
-        ignoreLeaks: true
-      },
-      full: { src: ['spec/runner.js'] }
-    },
+  self.hoodie = hoodie;
 
-    watch: {
-      files: ['&lt;%= jshint.files %&gt;'],
-      tasks: 'jshint'
-    }
-
-  });
-
-  // Default task.
-  grunt.registerTask('test', ['jshint', 'simplemocha:full']);
-  grunt.registerTask('ci', ['test', 'integration-test']);
-  grunt.registerTask('default', ['test']);
+  return function() {
+    return self.run.apply(self, arguments);
+  };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -270,59 +664,923 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
 
 <div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.hoodie-cli.Gruntfile" id="apidoc.module.hoodie-cli.Gruntfile">module hoodie-cli.Gruntfile</a></h1>
+<h1><a href="#apidoc.module.hoodie-cli.cli" id="apidoc.module.hoodie-cli.cli">module hoodie-cli.cli</a></h1>
 
 
     <h2>
-        <a href="#apidoc.element.hoodie-cli.Gruntfile.Gruntfile" id="apidoc.element.hoodie-cli.Gruntfile.Gruntfile">
-        function <span class="apidocSignatureSpan">hoodie-cli.</span>Gruntfile
-        <span class="apidocSignatureSpan">(grunt)</span>
+        <a href="#apidoc.element.hoodie-cli.cli.cli" id="apidoc.element.hoodie-cli.cli.cli">
+        function <span class="apidocSignatureSpan">hoodie-cli.</span>cli
+        <span class="apidocSignatureSpan">()</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">Gruntfile = function (grunt) {
+    <li>description and source-code<pre class="apidocCodePre">function CLI() {
+  this.cli = this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
 
-  'use strict';
 
-  require('load-grunt-tasks')(grunt);
+</div>
 
-  // Project configuration.
-  grunt.initConfig({
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.hoodie-cli.cli.prototype" id="apidoc.module.hoodie-cli.cli.prototype">module hoodie-cli.cli.prototype</a></h1>
 
-    jshint: {
-      files: [
-        'Gruntfile.js',
-        'lib/**/*.js',
-        'bin/*.js'
-      ],
-      options: {
-        jshintrc: '.jshintrc'
-      }
-    },
 
-    simplemocha: {
-      options: {
-        reporter: 'spec',
-        node_env: 'testing',
-        ignoreLeaks: true
-      },
-      full: { src: ['spec/runner.js'] }
-    },
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.cli.prototype.argv" id="apidoc.element.hoodie-cli.cli.prototype.argv">
+        function <span class="apidocSignatureSpan">hoodie-cli.cli.prototype.</span>argv
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">argv = function (argv, callback) {
 
-    watch: {
-      files: ['&lt;%= jshint.files %&gt;'],
-      tasks: 'jshint'
+  // optional callback
+  callback = callback || function() {};
+
+  // --help
+  // --help &lt;command&gt;
+  if (argv.help || argv.h) {
+    argv._.unshift('help');
+  }
+
+  // no command displays help
+  if (!argv._.length) {
+    argv._.unshift('help');
+  }
+
+  // lookup command to execute
+  var command = this;
+  for (var i = 0, l = argv._.length; i &lt; l; i++) {
+    if (typeof command[argv._[i]] === 'function') {
+      command = command[argv._[i]];
+    } else {
+      break;
     }
+  }
 
+  // execute command
+  if (command === this) {
+    this.unknown(argv, callback);
+  } else {
+    command.call(this, argv, callback);
+  }
+
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+module.exports = function(argv, callback) {
+
+this.logo();
+
+// display help on $ hoodie install
+if (argv._.length &lt;= 0) {
+  argv._.unshift('help');
+  this.<span class="apidocCodeKeywordSpan">argv</span>(argv, callback);
+  return;
+}
+
+var data = {
+  plugins: argv._[1] || argv.plugins || argv.p,
+  verbose: argv.verbose || argv.v,
+  link: argv.link
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.cli.prototype.help" id="apidoc.element.hoodie-cli.cli.prototype.help">
+        function <span class="apidocSignatureSpan">hoodie-cli.cli.prototype.</span>help
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">help = function (argv, callback) {
+
+  this.logo();
+
+  // help file directory
+  var basepath = path.join(__dirname, '..', '..', 'doc', 'cli');
+  var filepath;
+  var data;
+
+  // filename format: command.command.txt
+  filepath = argv._.slice(0);
+  filepath.push('txt');
+  filepath = filepath.join('.');
+
+  // full path
+  filepath = path.join(basepath, filepath);
+
+  // get help info and replace $0 with process name
+  data = fs.readFileSync(filepath, 'utf8');
+  data = data.trim().replace(/\$0/g, argv.$0);
+
+  console.log('\n' + data + '\n');
+
+  callback(null);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.cli.prototype.install" id="apidoc.element.hoodie-cli.cli.prototype.install">
+        function <span class="apidocSignatureSpan">hoodie-cli.cli.prototype.</span>install
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">install = function (argv, callback) {
+
+  this.logo();
+
+  // display help on $ hoodie install
+  if (argv._.length &lt;= 0) {
+    argv._.unshift('help');
+    this.argv(argv, callback);
+    return;
+  }
+
+  var data = {
+    plugins: argv._[1] || argv.plugins || argv.p,
+    verbose: argv.verbose || argv.v,
+    link: argv.link
+  };
+
+  // install new plugin
+  hoodie.install(data, function(err) {
+    callback(err);
   });
 
-  // Default task.
-  grunt.registerTask('test', ['jshint', 'simplemocha:full']);
-  grunt.registerTask('ci', ['test', 'integration-test']);
-  grunt.registerTask('default', ['test']);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  var data = {
+    plugins: argv._[1] || argv.plugins || argv.p,
+    verbose: argv.verbose || argv.v,
+    link: argv.link
+  };
+
+  // install new plugin
+  hoodie.<span class="apidocCodeKeywordSpan">install</span>(data, function(err) {
+    callback(err);
+  });
+
+};
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.cli.prototype.logo" id="apidoc.element.hoodie-cli.cli.prototype.logo">
+        function <span class="apidocSignatureSpan">hoodie-cli.cli.prototype.</span>logo
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">logo = function () {
+
+  var logo = [
+<span class="apidocCodeCommentSpan">  /* jshint ignore:start */
+</span>    ["", "", "", "", "", ""],
+    [".d$b.  .d$b.", "  .d$$$$$$b.  ", "  .d$$$$$$b.  ", ".d$$$$$$b.  ",  ".d$b.", ".d$$$$$$$$b."],
+    ["$$$$$..$$$$$", ".$$$$$$$$$$$b ", ".$$$$$$$$$$$b ", "$$$$$$$$$$b ",  "$$$$$", "$$$$$$$$$$P'"],
+    ["$$$$$$$$$$$$", "d$$$$$$$$$$$$b", "d$$$$$$$$$$$$b", "$$$$$$$$$$$b",  "$$$$$", "$$$$$$$$$$b."],
+    ["$$$$$$$$$$$$", "Q$$$$$$$$$$$$P", "Q$$$$$$$$$$$$P", "$$$$$$$$$$$P",  "$$$$$", "$$$$$$$$$$P'"],
+    ["$$$$$Â´`$$$$$", "'$$$$$$$$$$$$'", "'$$$$$$$$$$$$'", "$$$$$$$$$$P ",  "$$$$$", "$$$$$$$$$$b."],
+    ["'Q$P'  'Q$P'", "  'Q$$$$$$P'  ", "  'Q$$$$$$P'  ", "'Q$$$$$$$P  ",  "'Q$P'", "'Q$$$$$$$$P'"],
+    ["", "", "", "", "", ""]
+    /* jshint ignore:end */
+  ];
+
+  logo.forEach(function(line) {
+    var blue = clc.xterm(25);
+    var green = clc.xterm(28);
+    var yellow = clc.xterm(214);
+    var orange = clc.xterm(202);
+    var brown = clc.xterm(240);
+    var red = clc.xterm(160);
+
+    console.log(
+      blue(line[0]) +
+      green(line[1]) +
+      yellow(line[2]) +
+      orange(line[3]) +
+      brown(line[4]) +
+      red(line[5])
+    );
+  });
+
+  this.version();
+
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+//
+//   - `argv` {Object} is an optimist object.
+//   - `callback` {Function} is null unless there is an error.
+//
+
+module.exports = function(argv, callback) {
+
+this.<span class="apidocCodeKeywordSpan">logo</span>();
+
+// help file directory
+var basepath = path.join(__dirname, '..', '..', 'doc', 'cli');
+var filepath;
+var data;
+
+// filename format: command.command.txt
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.cli.prototype.new" id="apidoc.element.hoodie-cli.cli.prototype.new">
+        function <span class="apidocSignatureSpan">hoodie-cli.cli.prototype.</span>new
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">new = function (argv, callback) {
+
+  this.logo();
+
+  // display help on $ hoodie new
+  if (argv._.length &lt;= 0) {
+    argv._.unshift('help');
+    this.argv(argv, callback);
+    return;
+  }
+
+  // project info
+  var data = {
+    name: argv._[1] || argv.name || argv.n,
+    template: argv._[2] || argv.template || argv.t,
+    plugins: argv._[3] || argv.plugins || argv.p,
+    ssh: argv['use-ssh'] || argv.s,
+    verbose: argv.verbose || argv.v
+  };
+
+  // create the project
+  hoodie.new(data, function(err) {
+    callback(err);
+  });
+
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    template: argv._[2] || argv.template || argv.t,
+    plugins: argv._[3] || argv.plugins || argv.p,
+    ssh: argv['use-ssh'] || argv.s,
+    verbose: argv.verbose || argv.v
+  };
+
+  // create the project
+  hoodie.<span class="apidocCodeKeywordSpan">new</span>(data, function(err) {
+    callback(err);
+  });
+
+};
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.cli.prototype.reset" id="apidoc.element.hoodie-cli.cli.prototype.reset">
+        function <span class="apidocSignatureSpan">hoodie-cli.cli.prototype.</span>reset
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">reset = function (argv, callback) {
+
+  // display help on $ hoodie reset
+  if (argv._.length &lt;= 1) {
+    argv._.unshift('help');
+    this.argv(argv, callback);
+    return;
+  }
+
+  // project info
+  var data = {
+    password: argv._[2] || argv.password || argv.p
+  };
+
+  // create the project
+  hoodie.reset(data, function(err) {
+    callback(err);
+  });
+
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+  // project info
+  var data = {
+    password: argv._[2] || argv.password || argv.p
+  };
+
+  // create the project
+  hoodie.<span class="apidocCodeKeywordSpan">reset</span>(data, function(err) {
+    callback(err);
+  });
+
+};
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.cli.prototype.start" id="apidoc.element.hoodie-cli.cli.prototype.start">
+        function <span class="apidocSignatureSpan">hoodie-cli.cli.prototype.</span>start
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">start = function (argv, callback) {
+
+  this.logo();
+
+  // display help on $ hoodie start
+  if (argv._.length &lt;= 0) {
+    argv._.unshift('help');
+    this.argv(argv, callback);
+    return;
+  }
+
+  // start args
+  var data = {
+    noBrowser: argv.noBrowser || argv.n,
+    www: argv.www || argv.w,
+    sudo: argv['allow-sudo'] || argv.s,
+    'custom-ports': argv['custom-ports'] || argv.c,
+    verbose: argv.verbose || argv.v
+  };
+
+  // start hoodie services
+  hoodie.start(data, function(err) {
+    callback(err);
+  });
+
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    www: argv.www || argv.w,
+    sudo: argv['allow-sudo'] || argv.s,
+    'custom-ports': argv['custom-ports'] || argv.c,
+    verbose: argv.verbose || argv.v
+  };
+
+  // start hoodie services
+  hoodie.<span class="apidocCodeKeywordSpan">start</span>(data, function(err) {
+    callback(err);
+  });
+
+};
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.cli.prototype.uninstall" id="apidoc.element.hoodie-cli.cli.prototype.uninstall">
+        function <span class="apidocSignatureSpan">hoodie-cli.cli.prototype.</span>uninstall
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">uninstall = function (argv, callback) {
+
+  this.logo();
+
+  // display help on $ hoodie uninstall
+  if (argv._.length &lt;= 0) {
+    argv._.unshift('help');
+    this.argv(argv, callback);
+    return;
+  }
+
+  var data = {
+    plugins: argv._[1] || argv.plugins || argv.p,
+    verbose: argv.verbose || argv.v
+  };
+
+  // uninstall plugin
+  hoodie.uninstall(data, function(err) {
+    callback(err);
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+  var data = {
+    plugins: argv._[1] || argv.plugins || argv.p,
+    verbose: argv.verbose || argv.v
+  };
+
+  // uninstall plugin
+  hoodie.<span class="apidocCodeKeywordSpan">uninstall</span>(data, function(err) {
+    callback(err);
+  });
+};
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.cli.prototype.unknown" id="apidoc.element.hoodie-cli.cli.prototype.unknown">
+        function <span class="apidocSignatureSpan">hoodie-cli.cli.prototype.</span>unknown
+        <span class="apidocSignatureSpan">(argv, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">unknown = function (argv, callback) {
+
+  this.logo();
+
+  cnsl.warn(util.format(
+    '\'%s\' is not a %s command. See \'%s help\'',
+    argv._[0],
+    argv.$0,
+    argv.$0
+  ));
+
+  callback();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    } else {
+      break;
+    }
+  }
+
+  // execute command
+  if (command === this) {
+    this.<span class="apidocCodeKeywordSpan">unknown</span>(argv, callback);
+  } else {
+    command.call(this, argv, callback);
+  }
+
+};
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.cli.prototype.version" id="apidoc.element.hoodie-cli.cli.prototype.version">
+        function <span class="apidocSignatureSpan">hoodie-cli.cli.prototype.</span>version
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">version = function () {
+  hoodie.version();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+      yellow(line[2]) +
+      orange(line[3]) +
+      brown(line[4]) +
+      red(line[5])
+    );
+  });
+
+  this.<span class="apidocCodeKeywordSpan">version</span>();
+
+};
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.hoodie-cli.command" id="apidoc.module.hoodie-cli.command">module hoodie-cli.command</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.command.command" id="apidoc.element.hoodie-cli.command.command">
+        function <span class="apidocSignatureSpan">hoodie-cli.</span>command
+        <span class="apidocSignatureSpan">(hoodie)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Command(hoodie) {
+
+  var self = this;
+
+  self.hoodie = hoodie;
+
+  return function() {
+    return self.run.apply(self, arguments);
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.hoodie-cli.command.prototype" id="apidoc.module.hoodie-cli.command.prototype">module hoodie-cli.command.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.command.prototype.copyToCwd" id="apidoc.element.hoodie-cli.command.prototype.copyToCwd">
+        function <span class="apidocSignatureSpan">hoodie-cli.command.prototype.</span>copyToCwd
+        <span class="apidocSignatureSpan">(options, ctx, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">copyToCwd = function (options, ctx, callback) {
+
+  var self = ctx;
+
+  try {
+    self.hoodie.emit('info', 'Preparing: ' + options.name + ' ...');
+    shell.cp('-R', options.srcDir + '/', options.targetDir);
+    return callback(null);
+  } catch(err) {
+    self.hoodie.emit('err', 'cannot copy directory ');
+    return callback(err);
+  }
+
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.command.prototype.mkdir" id="apidoc.element.hoodie-cli.command.prototype.mkdir">
+        function <span class="apidocSignatureSpan">hoodie-cli.command.prototype.</span>mkdir
+        <span class="apidocSignatureSpan">(options, ctx, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">mkdir = function (options, ctx, callback) {
+
+  var self = ctx;
+
+  try {
+    shell.mkdir('-p', options.targetDir);
+    return callback(null);
+  } catch(e) {
+    self.hoodie.emit('err', 'directory already exists');
+    return callback(new Error());
+  }
+
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.command.prototype.openBrowser" id="apidoc.element.hoodie-cli.command.prototype.openBrowser">
+        function <span class="apidocSignatureSpan">hoodie-cli.command.prototype.</span>openBrowser
+        <span class="apidocSignatureSpan">(www, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">openBrowser = function (www, callback) {
+
+  var url = 'http://' + www.host + ':' + www.port;
+  openBrowser(url, callback);
+
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.hoodie-cli.console" id="apidoc.module.hoodie-cli.console">module hoodie-cli.console</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.console.err" id="apidoc.element.hoodie-cli.console.err">
+        function <span class="apidocSignatureSpan">hoodie-cli.console.</span>err
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">err = function () {
+
+  var args = Array.prototype.slice.call(arguments);
+
+  args.unshift('[hoodie]'.red);
+
+  console.log.apply(this, args);
+
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.console.info" id="apidoc.element.hoodie-cli.console.info">
+        function <span class="apidocSignatureSpan">hoodie-cli.console.</span>info
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">info = function () {
+
+  var args = Array.prototype.slice.call(arguments);
+
+  args.unshift('[hoodie]'.cyan);
+
+  console.log.apply(this, args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.console.prompt" id="apidoc.element.hoodie-cli.console.prompt">
+        function <span class="apidocSignatureSpan">hoodie-cli.console.</span>prompt
+        <span class="apidocSignatureSpan">(options, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">prompt = function (options, callback) {
+
+  // prompt setup
+  prompt.override = options.override;
+  prompt.colors = false;
+  prompt.message = '[prompt]'.green;
+  prompt.delimiter = ' ';
+  prompt.start();
+
+  // begin prompting
+  prompt.get(options.data, callback);
+
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.console.raw" id="apidoc.element.hoodie-cli.console.raw">
+        function <span class="apidocSignatureSpan">hoodie-cli.console.</span>raw
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">raw = function () {
+
+  var args = Array.prototype.slice.call(arguments);
+
+  console.log.apply(this, args);
+
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.console.success" id="apidoc.element.hoodie-cli.console.success">
+        function <span class="apidocSignatureSpan">hoodie-cli.console.</span>success
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">success = function () {
+
+  var args = Array.prototype.slice.call(arguments);
+
+  args.unshift('[hoodie]'.green);
+
+  console.log.apply(this, args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.console.warn" id="apidoc.element.hoodie-cli.console.warn">
+        function <span class="apidocSignatureSpan">hoodie-cli.console.</span>warn
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">warn = function () {
+
+  var args = Array.prototype.slice.call(arguments);
+
+  args.unshift('[hoodie]'.yellow);
+
+  console.log.apply(this, args);
+
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+//   - `callback` {Function} is a completion callback.
+//
+
+module.exports = function(argv, callback) {
+
+this.logo();
+
+cnsl.<span class="apidocCodeKeywordSpan">warn</span>(util.format(
+  '\'%s\' is not a %s command. See \'%s help\'',
+  argv._[0],
+  argv.$0,
+  argv.$0
+));
+
+callback();
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.hoodie-cli.dir" id="apidoc.module.hoodie-cli.dir">module hoodie-cli.dir</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.dir.appDir" id="apidoc.element.hoodie-cli.dir.appDir">
+        function <span class="apidocSignatureSpan">hoodie-cli.dir.</span>appDir
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">appDir = function (options) {
+  return path.join(options.cwd, options.name);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.dir.buildGitURI" id="apidoc.element.hoodie-cli.dir.buildGitURI">
+        function <span class="apidocSignatureSpan">hoodie-cli.dir.</span>buildGitURI
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">buildGitURI = function (options) {
+
+  var protocols = ['git@', 'https://'];
+  var separator = ['/', ':'];
+  var host = 'github.com';
+
+  var cProtocol = options.ssh ? protocols[1] : protocols[0];
+  var cSeparator = options.ssh ? separator[1] : separator[0];
+
+  return cProtocol + host + cSeparator + options.tmpl_cfg.entity + separator[0] + options.tmpl_cfg.repo + '.git';
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.dir.getBranchFromTemplate" id="apidoc.element.hoodie-cli.dir.getBranchFromTemplate">
+        function <span class="apidocSignatureSpan">hoodie-cli.dir.</span>getBranchFromTemplate
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">getBranchFromTemplate = function (options) {
+
+  if (options.template) {
+    return options.template.split('#').slice(-1)[0];
+  }
+
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.dir.getCacheDir" id="apidoc.element.hoodie-cli.dir.getCacheDir">
+        function <span class="apidocSignatureSpan">hoodie-cli.dir.</span>getCacheDir
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">getCacheDir = function () {
+  var homedir = 'HOME';
+
+  if (process.platform === 'win32') {
+    homedir = 'USERPROFILE';
+  }
+
+  var cacheDir = path.join(process.env[homedir], '.hoodie/cache/');
+
+  return cacheDir;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.dir.getEntityFromTemplate" id="apidoc.element.hoodie-cli.dir.getEntityFromTemplate">
+        function <span class="apidocSignatureSpan">hoodie-cli.dir.</span>getEntityFromTemplate
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">getEntityFromTemplate = function (options) {
+
+  var entity = 'hoodiehq';
+
+  if (!options.template) {
+    return entity;
+  }
+
+  if (options.template) {
+    return options.template.split('/')[0];
+  }
+
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.dir.getRepoFromTemplate" id="apidoc.element.hoodie-cli.dir.getRepoFromTemplate">
+        function <span class="apidocSignatureSpan">hoodie-cli.dir.</span>getRepoFromTemplate
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">getRepoFromTemplate = function (options) {
+
+  var tmpl = 'my-first-hoodie';
+
+  if (!options.template) {
+    return tmpl;
+  }
+
+  if (options.template) {
+    return options.template.split('/').slice(-1)[0];
+  }
+
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.hoodie-cli.git" id="apidoc.module.hoodie-cli.git">module hoodie-cli.git</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.git.bin" id="apidoc.element.hoodie-cli.git.bin">
+        function <span class="apidocSignatureSpan">hoodie-cli.git.</span>bin
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">bin = function () {
+
+  var path = shell.which('git');
+
+  // Add quotation in case the path contains a space
+  // This happens on windows (c:\program files\nodejs\...)
+  path = '"' + path + '"';
+
+  return path;
+
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -389,7 +1647,20 @@
     <li>description and source-code<pre class="apidocCodePre">install = function () {
   return self.run.apply(self, arguments);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  var data = {
+    plugins: argv._[1] || argv.plugins || argv.p,
+    verbose: argv.verbose || argv.v,
+    link: argv.link
+  };
+
+  // install new plugin
+  hoodie.<span class="apidocCodeKeywordSpan">install</span>(data, function(err) {
+    callback(err);
+  });
+
+};
+...</pre></li>
     </ul>
 
 
@@ -404,7 +1675,20 @@
     <li>description and source-code<pre class="apidocCodePre">new = function () {
   return self.run.apply(self, arguments);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    template: argv._[2] || argv.template || argv.t,
+    plugins: argv._[3] || argv.plugins || argv.p,
+    ssh: argv['use-ssh'] || argv.s,
+    verbose: argv.verbose || argv.v
+  };
+
+  // create the project
+  hoodie.<span class="apidocCodeKeywordSpan">new</span>(data, function(err) {
+    callback(err);
+  });
+
+};
+...</pre></li>
     </ul>
 
 
@@ -419,7 +1703,20 @@
     <li>description and source-code<pre class="apidocCodePre">reset = function () {
   return self.run.apply(self, arguments);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+  // project info
+  var data = {
+    password: argv._[2] || argv.password || argv.p
+  };
+
+  // create the project
+  hoodie.<span class="apidocCodeKeywordSpan">reset</span>(data, function(err) {
+    callback(err);
+  });
+
+};
+...</pre></li>
     </ul>
 
 
@@ -434,7 +1731,20 @@
     <li>description and source-code<pre class="apidocCodePre">start = function () {
   return self.run.apply(self, arguments);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    www: argv.www || argv.w,
+    sudo: argv['allow-sudo'] || argv.s,
+    'custom-ports': argv['custom-ports'] || argv.c,
+    verbose: argv.verbose || argv.v
+  };
+
+  // start hoodie services
+  hoodie.<span class="apidocCodeKeywordSpan">start</span>(data, function(err) {
+    callback(err);
+  });
+
+};
+...</pre></li>
     </ul>
 
 
@@ -449,7 +1759,19 @@
     <li>description and source-code<pre class="apidocCodePre">uninstall = function () {
   return self.run.apply(self, arguments);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+  var data = {
+    plugins: argv._[1] || argv.plugins || argv.p,
+    verbose: argv.verbose || argv.v
+  };
+
+  // uninstall plugin
+  hoodie.<span class="apidocCodeKeywordSpan">uninstall</span>(data, function(err) {
+    callback(err);
+  });
+};
+...</pre></li>
     </ul>
 
 
@@ -464,12 +1786,233 @@
     <li>description and source-code<pre class="apidocCodePre">version = function () {
   return self.run.apply(self, arguments);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+      yellow(line[2]) +
+      orange(line[3]) +
+      brown(line[4]) +
+      red(line[5])
+    );
+  });
+
+  this.<span class="apidocCodeKeywordSpan">version</span>();
+
+};
+...</pre></li>
     </ul>
 
 
 
 
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.hoodie-cli.packages" id="apidoc.module.hoodie-cli.packages">module hoodie-cli.packages</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.packages._modifyPlugins" id="apidoc.element.hoodie-cli.packages._modifyPlugins">
+        function <span class="apidocSignatureSpan">hoodie-cli.packages.</span>_modifyPlugins
+        <span class="apidocSignatureSpan">(p, transform, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_modifyPlugins = function (p, transform, callback) {
+  exports.readPackageJSON(p, function (err, pkg) {
+    if (err) {
+      return callback(err);
+    }
+    if (!pkg.hoodie) {
+      pkg.hoodie = {};
+    }
+    if (!pkg.hoodie.plugins) {
+      pkg.hoodie.plugins = [];
+    }
+    pkg.hoodie.plugins = transform(pkg.hoodie.plugins);
+    exports.writePackageJSON(p, pkg, callback);
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+//
+//   - `p           {String} the path to the package.json file to update
+//   -  plugins     {Array} an array of plugin package names or paths to add
+//   -  callback    {Function} called after package.json has written
+//
+
+exports.extendPlugins = function (p, plugins, callback) {
+  return exports.<span class="apidocCodeKeywordSpan">_modifyPlugins</span>(p, function (ps) {
+    return _.uniq(ps.concat(plugins));
+  }, callback);
+};
+
+//
+// Updates the hoodie.plugin property of a package.json file, removing
+// the names plugins from the array
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.packages.extendPlugins" id="apidoc.element.hoodie-cli.packages.extendPlugins">
+        function <span class="apidocSignatureSpan">hoodie-cli.packages.</span>extendPlugins
+        <span class="apidocSignatureSpan">(p, plugins, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">extendPlugins = function (p, plugins, callback) {
+  return exports._modifyPlugins(p, function (ps) {
+    return _.uniq(ps.concat(plugins));
+  }, callback);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.packages.readPackageJSON" id="apidoc.element.hoodie-cli.packages.readPackageJSON">
+        function <span class="apidocSignatureSpan">hoodie-cli.packages.</span>readPackageJSON
+        <span class="apidocSignatureSpan">(p, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">readPackageJSON = function (p, callback) {
+  fs.readFile(p, function (err, buf) {
+    if (err) {
+      return callback(err);
+    }
+    var pkg;
+    try {
+      pkg = JSON.parse(buf.toString());
+    }
+    catch (e) {
+      return callback(e);
+    }
+    return callback(null, pkg);
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+//
+// Modifies the hoodie.plugins property of a package.json file
+// Use extendPlugins() and removePlugins() instead of calling this directly
+//
+
+exports._modifyPlugins = function (p, transform, callback) {
+exports.<span class="apidocCodeKeywordSpan">readPackageJSON</span>(p, function (err, pkg) {
+  if (err) {
+    return callback(err);
+  }
+  if (!pkg.hoodie) {
+    pkg.hoodie = {};
+  }
+  if (!pkg.hoodie.plugins) {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.packages.removePlugins" id="apidoc.element.hoodie-cli.packages.removePlugins">
+        function <span class="apidocSignatureSpan">hoodie-cli.packages.</span>removePlugins
+        <span class="apidocSignatureSpan">(p, plugins, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">removePlugins = function (p, plugins, callback) {
+  return exports._modifyPlugins(p, function (ps) {
+    return ps.filter(function (plugin) {
+      return !(_.contains(plugins, plugin));
+    });
+  }, callback);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.packages.writePackageJSON" id="apidoc.element.hoodie-cli.packages.writePackageJSON">
+        function <span class="apidocSignatureSpan">hoodie-cli.packages.</span>writePackageJSON
+        <span class="apidocSignatureSpan">(p, pkg, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">writePackageJSON = function (p, pkg, callback) {
+  var output = JSON.stringify(pkg, null, 2);
+  fs.writeFile(p, output, callback);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    if (!pkg.hoodie) {
+      pkg.hoodie = {};
+    }
+    if (!pkg.hoodie.plugins) {
+      pkg.hoodie.plugins = [];
+    }
+    pkg.hoodie.plugins = transform(pkg.hoodie.plugins);
+    exports.<span class="apidocCodeKeywordSpan">writePackageJSON</span>(p, pkg, callback);
+  });
+};
+
+//
+// Updates the hoodie.plugin property of a package.json file
+//
+// Options:
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.hoodie-cli.pid" id="apidoc.module.hoodie-cli.pid">module hoodie-cli.pid</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.pid.create" id="apidoc.element.hoodie-cli.pid.create">
+        function <span class="apidocSignatureSpan">hoodie-cli.pid.</span>create
+        <span class="apidocSignatureSpan">(path, force)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">create = function (path, force) {
+  internals.path = path;
+  internals.writePid(internals.path, force);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.pid.exists" id="apidoc.element.hoodie-cli.pid.exists">
+        function <span class="apidocSignatureSpan">hoodie-cli.pid.</span>exists
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">exists = function () {
+  return fs.existsSync(path.resolve('data/hoodie.pid'));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hoodie-cli.pid.remove" id="apidoc.element.hoodie-cli.pid.remove">
+        function <span class="apidocSignatureSpan">hoodie-cli.pid.</span>remove
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">remove = function () {
+  internals.ulink(internals.path);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
 
 
 </div>
