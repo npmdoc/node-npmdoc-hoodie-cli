@@ -1,4 +1,7 @@
-# api documentation for  [hoodie-cli (v0.6.3)](https://github.com/hoodiehq/hoodie-cli)  [![npm package](https://img.shields.io/npm/v/npmdoc-hoodie-cli.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-hoodie-cli) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-hoodie-cli.svg)](https://travis-ci.org/npmdoc/node-npmdoc-hoodie-cli)
+# npmdoc-hoodie-cli
+
+#### api documentation for  hoodie-cli (v0.6.3)  [![npm package](https://img.shields.io/npm/v/npmdoc-hoodie-cli.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-hoodie-cli) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-hoodie-cli.svg)](https://travis-ci.org/npmdoc/node-npmdoc-hoodie-cli)
+
 #### Hoodie command-line interface.
 
 [![NPM](https://nodei.co/npm/hoodie-cli.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/hoodie-cli)
@@ -51,7 +54,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/hoodiehq/hoodie-cli.git"
+        "url": "https://github.com/hoodiehq/hoodie-cli.git"
     },
     "scripts": {
         "test": "grunt ci --verbose"
@@ -73,37 +76,7 @@
         "mocha": "^1.20.1",
         "sinon": "^1.10.3"
     },
-    "codename": "superb-ox",
-    "gitHead": "68636461cbbcb1f9005772531dc663e04b046355",
-    "bugs": {
-        "url": "https://github.com/hoodiehq/hoodie-cli/issues"
-    },
-    "homepage": "https://github.com/hoodiehq/hoodie-cli",
-    "maintainers": [
-        {
-            "name": "caolan"
-        },
-        {
-            "name": "gr2m"
-        },
-        {
-            "name": "jan"
-        },
-        {
-            "name": "svnlto"
-        },
-        {
-            "name": "boennemann"
-        },
-        {
-            "name": "hoodiebot"
-        }
-    ],
-    "dist": {
-        "shasum": "d8d5bdafe5e10ecc02aaace276d40f3e79acd5bd",
-        "tarball": "https://registry.npmjs.org/hoodie-cli/-/hoodie-cli-0.6.3.tgz"
-    },
-    "directories": {}
+    "codename": "superb-ox"
 }
 ```
 
